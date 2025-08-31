@@ -1,0 +1,37 @@
+Student Management System(SMS)
+	****************
+Home
+About
+Contact
+Notice
+Signup
+	Teacher/Student
+Login
+Logout
+Forgot Password
+Change  Password
+Terms & Condition
+
+
+View Profile
+Update profile
+Admin
+	Dashboard with Features Tiles
+	All Approved Students with reject options
+	All Approved Teachers with reject options
+	Pending Students with approve and reject option
+	Pending Teachers with approve and reject option
+	Rejected Students with approve option
+	Rejected Teachers with approve option
+	Add notice
+	Upload assignment
+Teacher
+	Dashboard with Features Tiles
+	All student pages will accessible that admin have
+	Upload assignment (same admin page)
+	Add notice (same admin page)
+	View notice (same public page)
+Student
+	Dashboard with Features Tiles
+	View notice (same public page)
+	Update Profile

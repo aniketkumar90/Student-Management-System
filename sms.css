@@ -1,0 +1,505 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.images_bg img {
+  height: 60vw;
+  width: 50vw;
+}
+
+.images_bg1 img {
+  height: 60vw;
+  width: 35vw;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+  background-image: url(images/body-bg.jpg);
+}
+
+.navbar-nav li {
+  font-weight: 600;
+  margin: 0 5px 0 5px;
+}
+
+.navbar-nav .nav-item ul li:hover {
+  color: rgb(9, 9, 243);
+}
+
+.navbar-brand span {
+  color: yellow;
+}
+
+.containt {
+  margin-top: 2vw;
+  margin-left: 6vw;
+  width: 50px;
+  color: white;
+  font-weight: 600;
+  font-size: 4vw;
+}
+
+.containt button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.containt span {
+  color: yellow;
+}
+
+.g_mail {
+  font-size: 15px;
+}
+
+.sms span {
+  color: yellow;
+  font-weight: 600;
+  font-size: 60px;
+  text-shadow: #082465 2px 2px 5px;
+}
+
+.navbar-brand {
+  color: white;
+  font-weight: 600;
+}
+
+.Image_img2 {
+  width: 80%;
+  border-radius: 50px;
+}
+
+.images_bg {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 50px;
+  z-index: -1;
+}
+
+/* Card */
+.text-center .card {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  box-shadow: 5px 5px 8px #082465;
+  font-weight: 600;
+}
+
+.modal_log a {
+  text-decoration: none;
+  color: white;
+}
+
+.text-center .card:hover {
+  /* border: 2px solid yellow; */
+  box-shadow: 2px 2px 5px #19326d;
+}
+
+/******Footer*****/
+
+footer {
+  background-color: #48467f;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+
+  text-align: center;
+  border-color: #000000;
+  border-radius: 20px 20px 0px 0px;
+  /* margin: 0px -10px 0px -10px; */
+  padding-top: 20px;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+footer ul li {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+footer ul li a {
+  list-style: none;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* login */
+.log_image img {
+  height: 50%;
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.log_data .login a {
+  text-decoration: none;
+}
+
+.log_data .login a:hover {
+  text-decoration: underline;
+}
+
+section h2 {
+  text-align: center;
+  text-shadow: #ffffff 1px 1px 3px;
+}
+
+.log_data {
+  /* margin-top: 7vw; */
+  margin-top: 1vw;
+}
+
+/* signup */
+.sign_up .sign a {
+  text-decoration: none;
+}
+
+.sign_up .sign a:hover {
+  text-decoration: underline;
+}
+
+.images_bg2 {
+  position: absolute;
+  float: right;
+  right: 0px;
+  top: 0px;
+  /* width: 50px; */
+  z-index: -1;
+}
+
+.images_bg4 {
+  position: absolute;
+  float: left;
+  left: 0px;
+  top: 0px;
+  /* width: 50px; */
+  z-index: -1;
+}
+
+/* forgot */
+.log_image12 img {
+  height: 35vw;
+  left: 0px;
+  top: 0px;
+}
+
+.nav-link {
+  color: #082465;
+  text-align: center;
+  font-size: larger;
+}
+
+.nav-link:hover {
+  color: yellow;
+  background-color: #082465;
+  border-radius: 10px;
+  text-align: center;
+  font-size: larger;
+}
+
+.images_bg5 img {
+  height: 30vw;
+  width: 55vw;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -2;
+}
+
+/* teacher */
+.side-bar {
+  background-color: #082465;
+  backdrop-filter: blur(15px);
+  height: 80vh;
+  overflow-x: auto;
+  margin: 0 -24px;
+  border-radius: 0px 0px 20px 20px;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  margin-right: 10px;
+}
+
+.side-bar .menu {
+  width: 100%;
+  margin-top: 40px;
+}
+
+.side-bar h3 {
+  color: white;
+  font-weight: 500;
+}
+
+.side-bar .menu .item {
+  position: relative;
+  cursor: pointer;
+}
+
+.side-bar .menu .item a {
+  color: white;
+  background-color: #082465;
+  font-weight: 400;
+  text-decoration: none;
+  display: block;
+  padding: 5px 30px;
+  line-height: 50px;
+}
+
+.side-bar .menu .item a:hover {
+  background-color: white;
+  font-weight: 600;
+  color: #082465;
+  border-radius: 50px 0 0 50px;
+  transition: 0.5s ease;
+}
+
+.side-bar .menu .item i {
+  margin-right: 10px;
+}
+
+.side-bar .menu .item .sub-menu {
+  display: none;
+}
+
+.side-bar .menu .item .sub-menu a {
+  padding-left: 80px;
+}
+
+/* 
+.side_img {
+  opacity: 0.8;
+} */
+
+/**********Admin Student list*******/
+/* Reset some default styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 50px;
+  text-align: center;
+}
+
+th {
+  background-color: #082465 !important;
+  color: #ffffff !important;
+  border: 1px solid black;
+}
+
+.thead {
+  background-color: #082465;
+  color: #ffffff;
+  border: 1px solid black;
+}
+
+th td {
+  margin: 10px;
+  padding: 8px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  text-align: center;
+  border: 1px solid black;
+}
+
+tr td {
+  text-align: center;
+
+  align-items: center;
+  align-content: center;
+  /* display: grid; */
+}
+
+/* . {
+  margin-bottom: 10px;
+  margin-top: 8px;
+} */
+
+.a_stu {
+  margin-top: 20px;
+}
+
+.info h3 {
+  text-align: center;
+}
+
+/* Responsive design */
+@media screen and (max-width: 600px) {
+  th td {
+    padding: 6px;
+  }
+}
+
+/* profile */
+.p_image img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* .p_image {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+  margin-top: 10px;
+} */
+
+.admin_profile {
+  padding: 20px;
+  margin: 20px;
+}
+
+.card {
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 5px 5px 8px #082465;
+
+}
+
+/* for loader */
+
+#loader {
+  animation: spin 0.3s linear infinite;
+  display: block;
+  margin: auto;
+  margin-top: 15%;
+  display: none;
+
+  /* 
+  /* animation: spin 0.7s linear infinite; */
+  /* position: relative;
+
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+  justify-content: center;
+  justify-items: center; */
+
+  /* 
+  position: relative;
+  float: left;
+  overflow: hidden; */
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* Dashboard card */
+
+
+.dash_card {
+  border: 2px solid #082465;
+  box-shadow: 20px 20px 30px #650808;
+
+}
+
+.dash_card:hover {
+  /* border: 2px solid yellow; */
+  box-shadow: 2px 2px 5px #082465;
+
+}
+
+h1,
+h4 {
+  text-align: center;
+  font-weight: 700;
+}
+
+.gradient1 {
+  background-image: linear-gradient(#254287 40%, #77839e 120%);
+  margin: 10px;
+}
+
+
+
+/* email template */
+/* onlu for testing purpose*/
+
+.asdf {
+  display: inline;
+  font-weight: 900;
+  font-size: 80px;
+  text-align: center;
+}
+
+
+ /* while working with database */
+
+.error {
+    color: red;
+}
+
+
+.profile-card {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.profile-card img {
+  border-radius: 20%;
+  margin-bottom: 15px;
+
+}
+
+
+.up_profile{
+  text-align: left;
+  display:block;
+}
+
+
+.student_dash{
+/* color:#082465;  */
+margin-top: 200px;
+margin-bottom: 400px;
+text-align: center;
+/* color: linear-gradient(to right, #6a11cb, #2575fc); */
+/* color: linear-gradient(to right, #082465, yellow); */
+font-weight: 800;
+
+background: -webkit-linear-gradient(#082465, #2575fc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+
+}
+
+
+/*  most liked css */
+::selection {
+  background-color: #082465;
+  color: yellow;
+}
+
+#num_value {
+  font: 800 40px system-ui;
+}
